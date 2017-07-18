@@ -1,6 +1,6 @@
 # Test against the latest version of this Node.js version
 environment:
-   nodejs_version: "6"
+    - nodejs_version: "6"
 
 # Install scripts. (runs after repo cloning)
 install:
@@ -9,7 +9,7 @@ install:
    # install modules
   - npm install
 
-# Post-install test scripts.
+# Post-Install Test Scripts
 test_script:
   # Output useful info for debugging.
   - node --version
@@ -17,5 +17,5 @@ test_script:
   # run tests
   - npm test
 
-# Don't actually build.
+#Don't Actually Build
 build: off
