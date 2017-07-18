@@ -16,6 +16,5 @@ test_script:
   # run tests
   - npm test
 
-#CG Test
 # Don't actually build.
 build: off
