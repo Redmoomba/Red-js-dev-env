@@ -1,6 +1,5 @@
 #Test Against this version of Node.JS
 environment:
-  matrix:
     # node.js
     - nodejs_version: "6"
 
