@@ -12,7 +12,11 @@ export function deleteUser(id){
 }
 
 // Probably need to add POST, PUT, DELETE, etc..
-function get(url){
+
+
+
+let get=(url) => {
+
   return fetch(baseUrl + url).then(onSuccess,onError);
 }
 
